@@ -19,7 +19,19 @@ public class Hello {
 		int price = 50000;
 		int reserve = 500;
 		int deliverycost = 3000;
+		String deliveryinfo = "해외배송";
 		String orgin = "베트남";
+		int installment = 10;
+		
+		System.out.println("이름 : " + name);
+
+		System.out.println(prodnm);
+		System.out.println("가격 "+ price + "원");
+		System.out.println("적립금 "+ reserve + "원");
+		System.out.println("무이자할부 최대" + installment);
+		System.out.println("배송비 " + deliverycost);
+		System.out.println("배송정보 " + deliveryinfo);
+		System.out.println("원산지 " + orgin);
 		
 	}
 
