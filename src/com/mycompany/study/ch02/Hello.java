@@ -28,8 +28,8 @@ public class Hello {
 		System.out.println(prodnm);
 		System.out.println("가격 "+ price + "원");
 		System.out.println("적립금 "+ reserve + "원");
-		System.out.println("무이자할부 최대" + installment);
-		System.out.println("배송비 " + deliverycost);
+		System.out.println("무이자할부 최대" + installment + "개월");
+		System.out.println("배송비 " + deliverycost + "원");
 		System.out.println("배송정보 " + deliveryinfo);
 		System.out.println("원산지 " + orgin);
 		
