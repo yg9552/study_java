@@ -14,13 +14,13 @@ public class Hello {
 		int width = 100;
 		String name= "양진용";
 		
+		
 		String prodnm = "반팔티셔츠";
 		int price = 50000;
 		int reserve = 500;
 		int deliverycost = 3000;
 		String orgin = "베트남";
 		
-				
 	}
 
 }
