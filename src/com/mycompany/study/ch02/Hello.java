@@ -7,9 +7,9 @@ public class Hello {
 //		데이터타입	변수명 = 초기값;
 //		데이터타입 변수명
 		
-		boolean abc = false;
-		boolean xyz;
-		xyz = abc;
+		boolean a = false;
+		boolean x;
+		x = false;
 		
 		
 	}
