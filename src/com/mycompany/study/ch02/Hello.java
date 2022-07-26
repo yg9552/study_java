@@ -33,6 +33,21 @@ public class Hello {
 		System.out.println("배송정보 " + deliveryinfo);
 		System.out.println("원산지 " + orgin);
 		
+		String nm = "송강호";
+		String id = "yg4583";
+		String pw = "비밀번호";
+		String email = "exemail@example.net";
+		String gender = "남성";
+		int age = 53;
+		
+		System.out.println("이름 " + nm);
+		System.out.println("아이디 " + id);
+		System.out.println("이메일 " + email);
+		System.out.println("성별 " + gender);
+		System.out.println("나이 " + age);
+		
+		
+		
 	}
 
 }
