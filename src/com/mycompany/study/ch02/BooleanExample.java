@@ -1,6 +1,6 @@
 package com.mycompany.study.ch02;
 
-public class booleanExample {
+public class BooleanExample {
 
 	public static void main(String[] args) {
 
