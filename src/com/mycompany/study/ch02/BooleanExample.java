@@ -4,13 +4,12 @@ public class BooleanExample {
 
 	public static void main(String[] args) {
 
-		int var1 = 10;
-		int var2 = 012;		//8진수표기법
-		int var3 = 0xa;		//16진수 표기법
-		
-		System.out.println(var1);
-		System.out.println(var2);
-		System.out.println(var3);
+		boolean stop = false;	//true ,false만 가능
+			if(stop) {
+				System.out.println("중지합니다");
+			} else {
+				System.out.println("시작합니다");
+			}
 	}
 
 }
