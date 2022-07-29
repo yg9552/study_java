@@ -12,7 +12,7 @@ public class PromotionExample {
 		byte byteValue = 10;
 		System.out.println("byteValue: " + byteValue);
 		
-		int intValue = 10;
+		int intValue = byteValue;
 		System.out.println("intValue: " + intValue);
 	}
 
