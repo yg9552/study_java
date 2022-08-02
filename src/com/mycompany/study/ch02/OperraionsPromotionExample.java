@@ -38,12 +38,12 @@ public class OperraionsPromotionExample {
 		
 		
 //		byte byteValue4 = intValue + byteValue;
-		int byteValue4 = intValue + byteValue;
-		
 		int intValue4 = intValue + byteValue;
-		
-		System.out.println(byteValue4);
 		System.out.println(intValue4);
+		
+//		int intValue5 = intValue + doubleValue;
+		double doubleValue4 = intValue + doubleValue;
+		System.out.println(doubleValue4);
 		
 	}
 
