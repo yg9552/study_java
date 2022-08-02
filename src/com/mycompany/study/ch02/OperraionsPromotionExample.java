@@ -16,23 +16,23 @@ public class OperraionsPromotionExample {
 		int shortValue3 = shortValue + shortValue2;
 		System.out.println(shortValue3);
 		
-		int intValue1 = 12;
-		int intValue2 = 12;
+		int intValue1 = 24;
+		int intValue2 = 24;
 		int intValue3 = intValue1 + intValue2;
 		System.out.println(intValue3);
 		
-		long longValue = 12;
-		long longValue2 = 12;
+		long longValue = 48;
+		long longValue2 = 48;
 		long longValue3 = longValue + longValue2;
 		System.out.println(longValue3);
 		
-		float floatValue = 12;
-		float floatValue2 = 12;
+		float floatValue = 96;
+		float floatValue2 = 96;
 		float floatValue3 = floatValue + floatValue2;
 		System.out.println(floatValue3);
 		
-		double doubleValue = 12;
-		double doubleValue2 = 12;
+		double doubleValue = 192;
+		double doubleValue2 = 192;
 		double doubleValue3 = doubleValue + doubleValue2;
 		System.out.println(doubleValue3);
 		
