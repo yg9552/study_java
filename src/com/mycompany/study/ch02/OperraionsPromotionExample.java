@@ -10,8 +10,8 @@ public class OperraionsPromotionExample {
 		int intValue = byteValue + byteValue2;
 		System.out.println(intValue);
 		
-		short shortValue = 12;
-		short shortValue2 = 12;
+		short shortValue = 384;
+		short shortValue2 = 384;
 //		short shortValue3 = shortValue + shortValue2;
 		int shortValue3 = shortValue + shortValue2;
 		System.out.println(shortValue3);
@@ -35,6 +35,15 @@ public class OperraionsPromotionExample {
 		double doubleValue2 = 192;
 		double doubleValue3 = doubleValue + doubleValue2;
 		System.out.println(doubleValue3);
+		
+		
+//		byte byteValue4 = intValue + byteValue;
+		int byteValue4 = intValue + byteValue;
+		
+		int intValue4 = intValue + byteValue;
+		
+		System.out.println(byteValue4);
+		System.out.println(intValue4);
 		
 	}
 
