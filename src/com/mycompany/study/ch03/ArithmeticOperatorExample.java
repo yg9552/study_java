@@ -9,6 +9,23 @@ public class ArithmeticOperatorExample {
 		
 		int result = v1 + v2;
 		System.out.println(result);
+
+		int result2 = v1 - v2;
+		System.out.println(result2);
+
+		int result3 = v1 * v2;
+		System.out.println(result3);
+
+		int result4 = v1 / v2;
+		System.out.println(result4);
+	
+		int result5 = v1 % v2;
+		System.out.println(result5);
+		
+		double result1 = v1 / v2;
+		System.out.println(result1);
+		double result6 = (double) v1 / v2;
+		System.out.println(result6);
 	}
 
 }
