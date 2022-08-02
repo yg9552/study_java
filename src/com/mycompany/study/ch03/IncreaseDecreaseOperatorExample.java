@@ -39,6 +39,9 @@ public class IncreaseDecreaseOperatorExample {
 		
 		int z = ++i + j++;
 		System.out.println(z);
+		System.out.println(i);
+		System.out.println(j);
+		
 		
 	}
 
