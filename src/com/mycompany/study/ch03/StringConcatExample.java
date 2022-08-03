@@ -7,7 +7,7 @@ public class StringConcatExample {
 		String StringValue = "jdk";
 		String StringValue2 = "1.11";
 		
-		System.out.println("우리가 사용하는 " + StringValue + StringValue2 + "입니다");
+		System.out.println("우리가 사용하는 " + StringValue + " " +StringValue2 + "입니다");
 		
 		
 		
