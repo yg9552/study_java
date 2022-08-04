@@ -16,6 +16,7 @@ public class StringEqualsExample {
 		System.out.println(result2);
 		System.out.println(result3);
 		
+//		문자열 비교 함수 .equals
 		System.out.println("str1.equals(str2): " + str1.equals(str2));
 		System.out.println("str1.equals(str3): " + str1.equals(str3));
 		
