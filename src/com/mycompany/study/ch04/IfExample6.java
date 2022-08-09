@@ -12,16 +12,16 @@ public class IfExample6 {
 		int b = 23;
 		int c = 3;
 		
-		if (a < b & a < c) {
+		if (a < b && a < c) {
 			System.out.println("a는 최소값입니다");
-		} else if (b < a & b < c){
+		} else if (b < a && b < c){
 			System.out.println("b는 최소값입니다");
 		} else {
 			System.out.println("c는 최소값입니다");
 		}
-		if (a > b & a > c) {
+		if (a > b && a > c) {
 			System.out.println("a는 최대값입니다");
-		} else if (b >a & b > c) {
+		} else if (b >a && b > c) {
 			System.out.println("b는 최대값입니다");
 		} else {
 			System.out.println("c는 최대값입니다");
