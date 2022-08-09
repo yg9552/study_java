@@ -8,7 +8,8 @@ public class IfExample3 {
 //		두 정수가 주어졌을때 두 정수를 비교하여
 //		크기 비교 결과를 나타내는 프로그램을 작성
 		
-		int a = 1, b = 1;
+		int a = 0 ;
+		int b = 0 ;
 		
 		if (a>b) {
 			System.out.println("a와 b가 크다");
