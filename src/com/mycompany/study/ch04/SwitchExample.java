@@ -37,6 +37,7 @@ public class SwitchExample {
 				System.out.println("회장입니다.");
 				break;
 		}
+		
 	}
 
 }
