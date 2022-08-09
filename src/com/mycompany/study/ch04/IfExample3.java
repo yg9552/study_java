@@ -10,14 +10,12 @@ public class IfExample3 {
 		
 		int a = 1, b = 1;
 		
-		if (a == b) {
-			System.out.println("a와 b가 같다");
-		} else if (a>b) {
-			System.out.println("a가 b보다 크다");
+		if (a>b) {
+			System.out.println("a와 b가 크다");
 		} else if (a<b) {
 			System.out.println("a가 b보다 작다");
 		} else {
-			System.out.println("안나옴");
+			System.out.println("a와 b가 같다");
 		}
 	}
 
