@@ -10,7 +10,7 @@ public class IfExample2 {
 //		골드 : 4, 20% 할인적용 20/100
 //		플레티넘 : 5, 2.7% 할인적용 27/1000
 		
-		int grade = 6;
+		int grade = 3;
 		int cost = 10000;
 		
 		if (grade == 1) {
