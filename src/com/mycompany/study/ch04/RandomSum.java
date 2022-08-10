@@ -9,7 +9,7 @@ public class RandomSum {
 		
 		double min = 1;
 		double max = 100;
-		int random = (int) (Math.random() * (max + min) * min);
+		int random = (int) (Math.random() * (max + min) + min);
 		System.out.println(random);
 		
 		
