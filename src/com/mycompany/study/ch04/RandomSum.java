@@ -18,7 +18,7 @@ public class RandomSum {
 //			int min = random1;
 //			int max = random2;
 //			} else (random1 > random2) {
-//				int min =random2;
+//				int min = random2;
 //				int max = random1;
 //			}
 //		for (int i = min; i <= max; i++) {
