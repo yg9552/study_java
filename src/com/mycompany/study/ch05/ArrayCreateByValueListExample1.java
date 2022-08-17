@@ -20,9 +20,9 @@ public class ArrayCreateByValueListExample1 {
 		for (int i = 0; i < scoreChemistry.length; i++) {
 			sum += scoreChemistry[i];
 		}
-		
+		System.out.println("화학성적총합 : " + sum);
 		avg = sum/scoreChemistry.length;
-		System.out.println(avg);
+		System.out.println("화학성적평균 : " + avg);
 
 //		double sum = 0;
 //		double avg = 0;
