@@ -9,12 +9,7 @@ public class ForExample {
 			String string = "**********";
 			System.out.println(string);
 		}
-		System.out.println("---------------------");
 		
-		for (int i =1; i <=10; i++) {
-			String string1 = "*";
-			System.out.print(string1);
-		} System.out.println();
 		
 		System.out.println("---------------------");
 		
