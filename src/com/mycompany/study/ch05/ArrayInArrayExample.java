@@ -12,7 +12,7 @@ public class ArrayInArrayExample {
 		System.out.println("scores[1][2] : " + scores[1][2]);
 		System.out.println("scores[0][1] : " + scores[0][1]);
 		
-		String[] name = {"양진용","장동건","고소영","아이유","박은빈"};
+		String[] name = {"양진용","장동건","고소영","이정재","정우성"};
 		String[] subject = {"수학","과학","영어"};
 		
 //		1. 개인의 평균
