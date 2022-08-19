@@ -28,13 +28,23 @@ public class ArrayInArrayExample {
 		
 //		2. 과목별 평균
 		
-		for(int j = 0; j < 3; j++) {
-			int sum1 = 0;
-			for (int i = 0; i < 5; i++) {
-				sum1 += scores[i][j];
-			} 
-			System.out.println(subject[j] +"의 평균 : " + (double)sum1/5);
-		} 
+//		for(int j = 0; j < 3; j++) {
+//			int sum1 = 0;
+//			for (int i = 0; i < 5; i++) {
+//				sum1 += scores[i][j];
+//			} 
+//			System.out.println(subject[j] +"의 평균 : " + (double)sum1/5);
+//		} 
+		
+		int[]sum2 = new int[3];
+		for(int i = 0; i < scores.length; i++) {
+			for (int j = 0; j <scores[i].length; j++) {
+				sum2[j] += scores[i][j];
+			}
+		}
+		for(int i = 0; i <sum2.length; i++) {
+			System.out.println((double) sum2[i]/scores.length);
+		}
 		
 	}
 
