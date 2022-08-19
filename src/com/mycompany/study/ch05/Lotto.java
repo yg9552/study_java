@@ -512,9 +512,20 @@ public class Lotto {
 		"1/5/9/21/27/35",
 		"16/23/27/29/33/41"};
 		
-		double min = 1.0;
-		double max = 45.0;
-		int random = 0;
+//		int []lotto = new int[6];
+//		
+//		for(int i = 0; i < lotto.length; i++) {
+//			int num = (int)(Math.random() * 45) + 1;
+//			lotto[i] = num;
+//			for(int j = 0; j < i; j++) {
+//				if(lotto[i] == lotto[j]) {
+//					i--;
+//					break;
+//				}
+//			}
+//		}
+		
+
 		
 		String randomString = "";
 		int[] randomArray = new int[6];
@@ -526,7 +537,7 @@ public class Lotto {
 		while(isSameNumber || isLinearNumber || isSameOldNumber) {
 			
 			for (int i=0; i<6; i++) {
-				random = (int) ((Math.random() * (max - min)) + min);
+				int random = (int) ((Math.random() * 45) +1);
 				randomArray[i] = random;
 			}
 			
