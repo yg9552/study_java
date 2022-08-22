@@ -6,7 +6,6 @@ public class CarExample {
 
 		Car abc = new Car();
 		
-		int a = 1;
 		
 		System.out.println("abc.name : " + abc.name);
 		System.out.println("abc.name2[0] : " + abc.name2[0]);
