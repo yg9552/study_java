@@ -537,7 +537,7 @@ public class Lotto {
 		while(isSameNumber || isLinearNumber || isSameOldNumber) {
 			
 			for (int i=0; i<6; i++) {
-				int random = (int) ((Math.random() * 45) +1);
+				int random = (int) ((Math.random() * 45) + 1);
 				randomArray[i] = random;
 			}
 			
