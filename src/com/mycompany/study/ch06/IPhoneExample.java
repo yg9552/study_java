@@ -15,6 +15,13 @@ public class IPhoneExample {
 		Car car = new Car();
 		System.out.println("car.name : "+ car.name);
 		
+		car.name = "GV60";
+		System.out.println("car.name : "+ car.name);
+		
+		
+		HandBag bag = new HandBag();
+		
+		System.out.println("Bag Brand : " + bag.name[2]);
 	}
 
 }
