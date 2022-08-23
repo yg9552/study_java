@@ -14,7 +14,7 @@ public class CarExample {
 		
 		HyundaiCar hyundaicar = new HyundaiCar();
 		
-		for(int i = 0; i<hyundaicar.name.length; i++) {
+		for(int i = 0; i < hyundaicar.name.length; i++) {
 			
 			System.out.println(hyundaicar.name[i]);
 		}
