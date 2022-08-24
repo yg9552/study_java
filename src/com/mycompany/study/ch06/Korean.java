@@ -20,4 +20,12 @@ public class Korean {
 	}
 	
 	static String nationality = "대한민국";
+	
+	static int staticTest (int a) {
+		return a + 10;
+	}
+	
+	public void test() {
+		Arithmetic.statictest();
+	}
 }

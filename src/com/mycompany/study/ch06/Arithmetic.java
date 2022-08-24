@@ -25,6 +25,8 @@ public class Arithmetic {
 		System.out.println("값은 " + result + " 입니다");
 	}
 	
-	
+	static void statictest() {
+		System.out.println("스테틱테스트!!");
+	}
 	
 }
