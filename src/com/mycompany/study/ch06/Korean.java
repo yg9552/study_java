@@ -19,4 +19,5 @@ public class Korean {
 		this.age = age;
 	}
 	
+	static String nationality = "대한민국";
 }
