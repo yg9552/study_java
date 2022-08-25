@@ -1,34 +1,28 @@
 package com.mycompany.study.ch07.first;
 
+
 public class DmbCellPhoneExample {
 
 	public static void main(String[] args) {
 		
-		// 부모 객체를 생성하고 powerOn 실행
+		//부모 객체 생성해서 매소드 출력
 		CellPhone cellPhone = new CellPhone();
-		
 		cellPhone.powerOn();
+		cellPhone.bell();
+		cellPhone.powerOff();
 		
-		// 자식 객체를 생성 하고 DMB 끄기
-		DmbCellPhone dmbCellPhone = new DmbCellPhone();
-		
+		//자식 객체 생성해서 자식, 부모 메서드 출력
+		DmbCellPhone dmbCellPhone = new DmbCellPhone("Galaxy Z플립 4", "핑크골드", 10);
+		System.out.println("모델명 : " + dmbCellPhone.model + " | 색상 : " + dmbCellPhone.color);
+		dmbCellPhone.turnOnDmb();
+		dmbCellPhone.changeChannelDmb(29);
 		dmbCellPhone.turnOffDmb();
 		
-		// 생성자를 이용하여 자식객체를 생성
-		DmbCellPhone dmbCellPhone2 = new DmbCellPhone("IPhone 12 Pro", "퍼시픽블루", 10);
-		
-//		dmbCellPhone2 객체를 이용하여 자식 클래스의 매서드 출력
-		dmbCellPhone2.turnOnDmb();
-		dmbCellPhone2.changeChannelDmb(1);
-		dmbCellPhone2.turnOffDmb();
-		
-//		dmbCellPhone2 객체를 이용하여 부모 클래스의 매서드 출력
-		dmbCellPhone2.powerOn();
-		dmbCellPhone2.bell();
-		dmbCellPhone2.sendVoice("ㄴㅁㅇㄹㄴㅇㅁㄹㅈㄷㄱ");
-		dmbCellPhone2.receiveVoice("ㄴㅁㅇㄹㄴㅇㅁㄹㅈㄷㄱ");
-		dmbCellPhone2.hangUp();
-		dmbCellPhone2.powerOff();
+		dmbCellPhone.powerOn();
+		dmbCellPhone.sendVoice("가나다라마바사");
+		dmbCellPhone.receiveVoice("아자차카타파하");
+		dmbCellPhone.hangUp();
+		dmbCellPhone.powerOff();
 	}
 
 }

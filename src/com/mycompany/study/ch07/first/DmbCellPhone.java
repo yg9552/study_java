@@ -1,30 +1,32 @@
 package com.mycompany.study.ch07.first;
 
-public class DmbCellPhone extends CellPhone{
+public class DmbCellPhone extends CellPhone {
 //자식
 	
 	//필드
 	int channel;
 	
 	//생성자
-	DmbCellPhone(String model, String color, int channel){
+	DmbCellPhone(String model, String color, int channel) {
 		this.model = model;
 		this.color = color;
 		this.channel = channel;
 	}
+	
 	DmbCellPhone(){
 		
 	}
 	
-	//매소드
+	//매서드
 	void turnOnDmb() {
-		System.out.println("채널 " + channel + "번 DMB방송 수신을 시작합니다.");
+		System.out.println("채널 " + channel + "번 방송을 켭니다");
 	}
+	
 	void changeChannelDmb(int channel) {
-		this.channel = channel;
-		System.out.println("채널 " + channel + "번으로 바꿨습니다.");
+		System.out.println("채널을 " + channel + "번으로 변경합니다");
 	}
+	
 	void turnOffDmb() {
-		System.out.println("DMB 방송 수신을 멈춥니다.");
+		System.out.println("DMB수신을 끕니다");
 	}
 }
