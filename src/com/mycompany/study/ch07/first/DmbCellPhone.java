@@ -1,6 +1,6 @@
 package com.mycompany.study.ch07.first;
 
-public class DmbCellPhone{
+public class DmbCellPhone extends CellPhone{
 //자식
 	
 	//필드
@@ -11,6 +11,9 @@ public class DmbCellPhone{
 		this.model = model;
 		this.color = color;
 		this.channel = channel;
+	}
+	DmbCellPhone(){
+		
 	}
 	
 	//매소드
