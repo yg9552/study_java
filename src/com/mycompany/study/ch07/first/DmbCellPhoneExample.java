@@ -23,6 +23,7 @@ public class DmbCellPhoneExample {
 		dmbCellPhone.receiveVoice("아자차카타파하");
 		dmbCellPhone.hangUp();
 		dmbCellPhone.powerOff();
+		
 	}
 
 }
