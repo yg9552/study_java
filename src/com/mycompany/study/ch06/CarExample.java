@@ -17,6 +17,7 @@ public class CarExample {
 		for(int i = 0; i < hyundaicar.name.length; i++) {
 			
 			System.out.println(hyundaicar.name[i]);
+			
 		}
 		
 	}
