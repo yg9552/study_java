@@ -13,7 +13,7 @@ public class Cat extends Animal{
 
 	@Override
 	public void sound(String aaa) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("야옹" + aaa);
 	}
 	
