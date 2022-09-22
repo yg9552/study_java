@@ -2,7 +2,7 @@ package com.mycompany.study.ch09.first;
 
 public class TryCatchFinallyExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException {
 		// TODO Auto-generated method stub
 //		try {
 			Class clazz = Class.forName("java.lang.String2");
