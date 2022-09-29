@@ -7,8 +7,6 @@ public class CompareMethodExample {
 		Pair<Integer, String> p1 = new Pair<Integer, String>(10, "사과");
 		Pair<Integer, String> p2 = new Pair<Integer, String>(10, "사과");
 
-		
-	
 		boolean result1 = Util.<Integer, String>compare(p1, p2);
 		
 		if(result1) {
